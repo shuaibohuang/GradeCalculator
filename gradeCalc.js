@@ -41,9 +41,11 @@ function calculation(){
 		
 	}
 
+	var secondContainer="";
 	for(var i=85; i>51; i=i-5){
 		var gradeNeed=(i-grade)/(finalPercentage/100);
-		var secondContainer = "<li>Total Percentag you need to get "+i+"% is "+gradeNeed+"</li>";
-		document.getElementById("result").innerHTML(secondContainer);
+		secondContainer = secondContainer+"<li>Total Percentag you need to get "+i+"% is "+gradeNeed+"</li>";
+		console.log(secondContainer);
+		document.getElementById("result").innerHTML=secondContainer;
 	}
 }
