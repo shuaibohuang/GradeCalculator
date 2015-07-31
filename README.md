@@ -1,2 +1,5 @@
 # GradeCalculator
-THis is an online calculation websites for student who wants to calculate the minimum final exam score they need to get a target 
+
+This is an online calculation websites for student who wants to calculate the minimum final exam score they need to get a target letter grade.
+
+The website is powered by HTML and Javascript.
